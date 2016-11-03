@@ -1,0 +1,41 @@
+/* Général
+  ================================================== */
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation
+  ================================================== */
+
+.navbar-brand {
+  padding-left: 2em;
+  padding-right: 1.5em;
+}
+
+.navbar-nav > li > a {
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+
+/* Banière
+  ================================================== */
+
+.image {
+	background-image: url(../img/monaco.jpg);
+	background-size: cover;
+	background-position: center;
+  width: 100%;
+  height: 400px;
+  margin-top: 50px;
+  -webkit-filter: opacity(.7);
+  filter: opacity(.7);
+}
+/*.target-ratio-resize:after {
+	content: " ";
+	display: block;
+	width: 100%;
+	padding-top: 33.333%; /* 3:1 ratio */
+}
