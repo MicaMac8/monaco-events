@@ -23,7 +23,7 @@
 /* Banière
   ================================================== */
 
-.image {
+.banniere {
 	background-image: url(../img/monaco.jpg);
 	background-size: cover;
 	background-position: center;
@@ -37,5 +37,34 @@
 	content: " ";
 	display: block;
 	width: 100%;
-	padding-top: 33.333%; /* 3:1 ratio */
+	padding-top: 33.333%; /* 3:1 ratio
+}*/
+
+/* search bar */
+
+.search-bar-wraper {
+  padding-top: 250px;
+  text-align: center;
+  width: 100%;
+}
+
+.btn-lg {
+  margin-left: 20px;
+}
+
+.form-group {
+  margin: 0 auto 30px auto;
+  width: 600px;
+}
+
+.input-group {
+  width: 100%;
+}
+
+.form-control {
+  width: 100%;
+}
+
+.input-group-addon {
+  width: 1%;
 }
