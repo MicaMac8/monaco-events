@@ -7,6 +7,7 @@
 body {
   font-family: Lato, sans-serif;
   background-color: #ddd;
+  color: #777;
 }
 
 /* Layout */
@@ -95,7 +96,7 @@ main > h1 {
 }
 
 @media only screen and (min-width : 768px) {
-  .activite-moment-img {
+  .activite-moment-img {btn-retour
     margin: 2em 3em;
   }
 }
@@ -107,4 +108,36 @@ main > h1 {
   .activite-moment-img {
     margin: 3em 10em;
   }
+}
+
+/* Liens
+    ================================================== */
+
+#link-section {
+  padding: 2em 1em;
+}
+
+#link-section > .btn-lg{
+  margin: 0;
+}
+
+@media only screen and (min-width: 992px) {
+  #link-section {
+    padding: 2em 5em;
+  }
+}
+
+/* Pied de page
+    ================================================== */
+
+footer {
+  margin-top: 3em;
+  height: 5em;
+  background-color: #444;
+  display: flex;
+  align-items: flex-end;
+}
+
+#btn-retour {
+  width: 150px;
 }
