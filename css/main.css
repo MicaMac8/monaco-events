@@ -76,36 +76,35 @@ h1 {
 /* Présentation
     ================================================== */
 
-main {
-  padding: 4em;
-}
 
 main > h1 {
-  margin-bottom: 4em;
+  margin: 2em 1em;
 }
 
 .activite-moment {
   display: flex;
   flex-wrap: wrap;
-  background-color: #888;
-  margin: 4em 0;
-  padding: 2em;
-  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
 }
 
 .activite-moment-img {
-  max-height: 200px;  
+  max-height: 300px;
+  margin: 2em 0;
+  background-color: #e5e5e5;
 }
 
-
-/*@media only screen and (min-width : 768px) {
-  .activite-moment {
-    //width: 40%;
+@media only screen and (min-width : 768px) {
+  .activite-moment-img {
+    margin: 2em 3em;
   }
 }
 
 @media only screen and (min-width : 992px) {
-  .activite-moment {
-    //width: 33%;
+  .activite-moment > h2 {
+    padding: 2em 5em;
   }
-}*/
+  .activite-moment-img {
+    margin: 3em 10em;
+  }
+}
