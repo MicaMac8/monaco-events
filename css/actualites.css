@@ -1,0 +1,22 @@
+main {
+  margin-top: 50px;
+  padding: 2em;
+}
+
+.actu {
+  margin-bottom: 2em;
+  padding: 2em;
+  background-color: #eee;
+}
+
+.img-actu {
+  max-width: 350px;
+  width: 100%;
+  margin-top: 2em;
+}
+
+@media only screen and (min-width : 768px) {
+  .img-actu {
+    margin-top: 0;
+  }
+}
