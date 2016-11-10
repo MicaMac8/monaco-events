@@ -16,6 +16,9 @@ body {
   padding: 0;
 }
 
+main {
+  margin-top: 100px;
+}
 
 h1 {
   line-height: 1.7em;
@@ -26,13 +29,38 @@ h1 {
 
 .navbar-brand {
   padding-left: 2em;
-  padding-right: 1.5em;
+  padding-right: 1em;
 }
 
-.navbar-nav > li > a {
-  padding-left: 3em;
-  padding-right: 3em;
+.navbar-nav > li:hover {
+  background-color: #333;
 }
+
+.navbar-nav > li {
+  width: 100%;
+  text-align: center;
+}
+
+@media only screen and (min-width : 768px) {
+
+  .nav {
+    width: 83%;
+    float: right;
+  }
+
+  .navbar-nav > li {
+    width: 25%;
+  }
+
+  .navbar-nav > li > a {
+    //padding-left: 3em;
+    //padding-right: 3em;
+    //width: 100%;
+  }
+
+}/* end @media (min-width : 768px) */
+
+
 
 
 /* Banière
@@ -140,4 +168,11 @@ footer {
 
 #btn-retour {
   width: 150px;
+}
+
+/* utility class
+    ================================================== */
+
+.italic {
+  font-style: italic;
 }
